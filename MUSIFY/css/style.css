@@ -91,7 +91,13 @@
     background-color: black;
     position: sticky;
     bottom: 0;
-    height: 70px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* justify-content: center; */
 }
 
 .bar{
@@ -100,4 +106,14 @@
 }
 .bar:hover{
     cursor: grab;
+}
+.icons{
+    color: white;
+    height: 20px; 
+    margin: 5px;
+    display: flex;
+}
+.logo-icon{
+    height: 30px;
+    margin: 5px;
 }
