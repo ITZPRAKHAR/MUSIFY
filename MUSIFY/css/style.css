@@ -87,3 +87,17 @@
     height: 400px;
 }
 
+.bottom{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    height: 70px;
+}
+
+.bar{
+    width: 100%;
+    
+}
+.bar:hover{
+    cursor: grab;
+}
