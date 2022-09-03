@@ -1,19 +1,22 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
-.navigation{
-    width: 100%;
-            height: 70vh;
-            color: white;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/3104/black-and-white-music-headphones-life.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-            background-size: cover;
-            background-position: center;
+body{
+    font-family: 'Rubik', sans-serif;
 }
 
-.navbar{
+.navigation {
+    width: 100%;
+    height: 70vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/3104/black-and-white-music-headphones-life.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
 
     display: flex;
     align-items: center;
@@ -21,12 +24,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: black ;
+    background-color: black;
     color: white;
     height: 50px;
 }
 
-.nav li{
+.nav li {
 
     display: inline-block;
     font-size: 20px;
@@ -36,25 +39,26 @@
 
 }
 
-.nav li:hover{
-    
+.nav li:hover {
+
     transform: scale(1.18);
     background-color: rgb(255, 127, 127);
 
 
 }
 
-.logo{
+.logo {
     margin-left: 20px;
     transition: all;
     transition-duration: 0.25s;
 }
-.logo:hover{
+
+.logo:hover {
 
     color: rgb(255, 127, 127);
 }
 
-.btn{
+.btn {
     margin-right: 30px;
     width: 6%;
     height: 30px;
@@ -64,56 +68,132 @@
     background-color: rgb(255, 127, 127);
     color: aliceblue;
 }
-.btn:hover{
-  
+
+.btn:hover {
+
     transform: scale(1.08);
 }
 
-.nav{
-   margin-left: 15px;
+.nav {
+    margin-left: 15px;
 }
 
-.quote{
-   position: relative;
-   top: 200px;
-   left: 310px;
-   font-size: 35px;
+.quote {
+    position: relative;
+    top: 200px;
+    left: 310px;
+    font-size: 35px;
 
 }
 
-.new{
+.new {
 
-    background-color: bisque;
-    height: 400px;
+   background-color: black;
+    height: 600px;
 }
 
-.bottom{
-    background-color: black;
+.bottom {
+    background-color: rgb(32, 31, 31);
     position: sticky;
     bottom: 0;
-    height: 80px;
+    height: 75px;
     display: flex;
     align-items: center;
-    justify-content: center;
+   
     flex-direction: column;
-
-    /* justify-content: center; */
 }
 
 .bar{
     width: 100%;
+   
+}
+
+.bar:hover {
+        cursor: grab;
+    }
+
+    .icons {
+        color: white;
+        height: 20px;
+        margin: 5px;
+        display: flex;
+       
+    }
+
+    .logo-icon {
+        height: 30px;
+        margin: 5px;
+    }
+
+    .culture{
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+
+    .covers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     
-}
-.bar:hover{
-    cursor: grab;
-}
-.icons{
-    color: white;
-    height: 20px; 
-    margin: 5px;
-    display: flex;
-}
-.logo-icon{
-    height: 30px;
-    margin: 5px;
-}
+    }
+    .one{
+        color: white;
+    }
+    .one h3{
+        text-align: center;
+        padding: 10px;
+        margin-left: 40px;
+    }
+    
+    
+    .two{
+       color: white;
+    }
+    .two h3{
+        text-align: center;
+        padding: 10px;
+    }
+    .three{
+       color: white;
+    }
+    .three h3{
+        text-align: center;
+        padding: 10px;
+
+    }
+    .four{
+        color: white;
+        
+    }
+    .four h3{
+        text-align: center;
+        padding: 10px;
+        margin-right: 60px;
+
+    }
+    .one img{
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 71px;
+        
+    }
+    .two img{
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 71px;
+        
+    }
+    .three img{
+        height: 200px;
+        margin-right: 20px;
+        margin-top: 71px;
+        
+    }
+    .four img{
+        height: 200px;
+        margin-right: 70px;
+        margin-top: 71px;
+        
+    }
