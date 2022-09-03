@@ -94,7 +94,6 @@ body{
 
 }
 
-
 .new {
 
    background-color: black;
@@ -175,6 +174,7 @@ body{
     .four{
         color: white;
         
+        
     }
     .four h3{
         text-align: center;
@@ -186,23 +186,68 @@ body{
         height: 200px;
         margin-left: 50px;
         margin-top: 71px;
+        transition: all;
+        transition-duration: 0.20s;
         
+    }
+    .one img:hover{
+       
+        transform:scale(1.1);
+        box-shadow: 0px 0px 20px 0px white;
+
+
     }
     .two img{
         height: 200px;
         margin-left: 0px;
         margin-top: 71px;
+        transition: all;
+        transition-duration: 0.20s;
         
+    }
+
+    .two img:hover{
+       
+        transform:scale(1.1);
+        box-shadow: 0px 0px 20px 0px white;
+
+
     }
     .three img{
         height: 200px;
         margin-right: 20px;
         margin-top: 71px;
+        transition: all;
+        transition-duration: 0.20s;
         
+    }
+
+    .three img:hover{
+       
+        transform:scale(1.1);
+        box-shadow: 0px 0px 20px 0px white;
+
     }
     .four img{
         height: 200px;
         margin-right: 70px;
         margin-top: 71px;
+        transition: all;
+        transition-duration: 0.20s;
+
         
+    }
+
+    .four img:hover{
+       
+        transform:scale(1.1);
+        box-shadow: 0px 0px 20px 0px white;
+
+       
+
+
+    }
+
+    .master{
+        height: 40px;
     }

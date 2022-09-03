@@ -16,7 +16,7 @@
     <div class="navigation">
         <nav class="navbar">
             <h2 class="logo">MUSIFY <i class="fa-sharp fa-solid  fa-headphones"></i></h2>
-            
+
 
             <ul class="nav">
                 <li>Home</li>
@@ -25,7 +25,7 @@
                 <li>Contact Us</li>
             </ul>
 
-            <button class="btn">LOGIN</button>
+            <button class="btn" >LOGIN</button>
         </nav>
 
         <div class="quote">
@@ -33,7 +33,7 @@
                 Death is for the dead.
                 Let life be like music.
                 And death a note unsaid.”
-        </p>
+            </p>
         </div>
 
         <div class="headset">
@@ -44,39 +44,40 @@
     </div>
 
     <div class="new">
-       <h1 class="culture">Connect With Music Culture</h1>
-        
-       <div class="covers">
-        <div class="one">
-            <img src="https://i.scdn.co/image/ab671c3d0000f430330523a1b60c1d5e0b31935f">
-            <h3>Hot Hits India</h3>
+        <h1 class="culture">Connect With Music Culture</h1>
+
+        <div class="covers">
+            <div class="one">
+                <img onclick="one()" ondblclick="pause1()" src="https://i.scdn.co/image/ab671c3d0000f430330523a1b60c1d5e0b31935f">
+                <h3>Hot Hits India</h3>
+            </div>
+            <div class="two">
+                <img onclick="two()" ondblclick="pause2()"src="https://i.scdn.co/image/ab678e040000ed3ae2a230b4aabb0dacf482fe77">
+                <h3>Punjabi 101</h3>
+            </div>
+            <div class="three">
+                <img onclick="three()" ondblclick="pause3()" src="https://i.scdn.co/image/ab678e040000ed3aa5fdbf6397d7ce041cf0b952">
+                <h3>Bollywood Butter</h3>
+            </div>
+            <div class="four">
+                <img onclick="four()" ondblclick="pause4()" src="https://i.scdn.co/image/ab678e040000ed3adafb4b3c95e06dcb86373f73">
+                <h3>Tollywood Pearls</h3>
+            </div>
         </div>
-        <div class="two">
-            <img src="https://i.scdn.co/image/ab678e040000ed3aa5fdbf6397d7ce041cf0b952">
-            <h3>Bollywood Butter</h3>
-        </div>
-        <div class="three">
-            <img src="https://i.scdn.co/image/ab678e040000ed3ae2a230b4aabb0dacf482fe77">
-            <h3>Punjabi 101</h3>
-        </div>
-        <div class="four">
-            <img src="https://i.scdn.co/image/ab678e040000ed3adafb4b3c95e06dcb86373f73">
-            <h3>Tollywood Pearls</h3>
-        </div>
-       </div>
-       
+
 
     </div>
     <div class="bottom">
         <input type="range" class="bar" id="ProgressBar" min="0" max="100">
         <div class="icons">
             <i class=" logo-icon fa-solid fa-2x  fa-backward"></i>
-            <i id="masterplay" class=" logo-icon  fa-solid fa-2x fa-play-circle"></i>
+            <button class="master" onclick="playpuase()"><i id="masterplay" class=" logo-icon  fa-solid fa-2x fa-play-circle"></i></button>
             <i class=" logo-icon fa-solid fa-2x fa-forward"></i>
 
         </div>
 
     </div>
+
 
 </body>
 
