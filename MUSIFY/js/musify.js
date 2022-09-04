@@ -43,6 +43,10 @@ function pause4(){
 }
 
 
+
+
+
+
 let aud = new Audio ('music/1.mp3');
 
 function playpause(){
@@ -58,3 +62,4 @@ function playpause(){
     document.getElementById('masterplay').classList.add('fa-play-circle');
     }
 }
+
