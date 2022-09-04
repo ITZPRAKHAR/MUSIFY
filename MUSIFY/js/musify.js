@@ -29,20 +29,6 @@ function lol(){
     song1.pause();
 }
 
-// let b = document.getElementsByClassName("master");
-// let c = 0;
-
-// function playpuase(){
-//        if(c==0){
-//         c=1;
-//         song1.play();
-//        }
-//        else {
-//         c=0;
-//         song1.pause();
-//        }
-// }
-
 function pause1(){
     song1.pause();
 }
@@ -56,3 +42,19 @@ function pause4(){
     song4.pause();
 }
 
+
+let aud = new Audio ('music/1.mp3');
+
+function playpause(){
+    // document.getElementById('masterplay').innerHTML = "hi";
+    if(aud.paused||aud.currentTime<=0){
+      aud.play();
+    document.getElementById('masterplay').classList.remove('fa-play-circle');
+    document.getElementById('masterplay').classList.add('fa-pause-circle');
+}
+    else {
+        aud.pause();
+    document.getElementById('masterplay').classList.remove('fa-pause-circle');
+    document.getElementById('masterplay').classList.add('fa-play-circle');
+    }
+}
